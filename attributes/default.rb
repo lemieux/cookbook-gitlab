@@ -44,6 +44,7 @@ when "ubuntu","debian"
     curl wget checkinstall libxslt-dev libsqlite3-dev
     libcurl4-openssl-dev libssl-dev libmysql++-dev
     libicu-dev libc6-dev libyaml-dev nginx python python-dev
+    redis-server
   }
 when "redhat","centos","amazon","scientific"
   case node['platform_version'].to_i
